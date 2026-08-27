@@ -9,7 +9,7 @@ spring:
     password: password
     driver-class-name: org.postgresql.Driver
 
-    ai:
+  ai:
     openai:
       api-key: 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
       base-url: https://openrouter.ai/api
@@ -17,6 +17,7 @@ spring:
         options:
           model: openrouter/free
           temperature: 0.0
+
 
 ---
 
